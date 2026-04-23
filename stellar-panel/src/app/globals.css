@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --cor-bg: #0f1629;
+  --cor-card: #1a2340;
+  --cor-borda: #2a3558;
+  --cor-texto: #e2e8f0;
+  --cor-subtexto: #94a3b8;
+  --cor-azul: #3366ff;
+  --cor-azul-hover: #4477ff;
+  --cor-ouro: #e8b820;
+  --cor-verde: #22c55e;
+  --cor-vermelho: #ef4444;
+  --cor-laranja: #f97316;
+}
+
+html, body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--cor-bg);
+  color: var(--cor-texto);
+  min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--cor-bg); }
+::-webkit-scrollbar-thumb { background: var(--cor-borda); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--cor-azul); }
+
+/* Animações */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in { animation: fadeIn 0.3s ease forwards; }
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.loading { animation: pulse-soft 1.5s ease-in-out infinite; }

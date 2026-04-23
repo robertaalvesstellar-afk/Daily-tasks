@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.npm
+
+# Next.js
+.next/
+out/
+build/
+
+# Environment variables (NUNCA commitar)
+.env
+.env.local
+.env.*.local
+
+# Tokens OAuth (NUNCA commitar - dados sensíveis)
+data/tokens.json
+
+# Relatórios gerados
+reports/*.pdf
+reports/*.html
+
+# Logs
+logs/*.json
+
+# Puppeteer
+.local-chromium/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

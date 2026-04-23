@@ -1,0 +1,37 @@
+{
+  "indisponibilidadeRoberta": [
+    {
+      "diaSemana": 1,
+      "horaInicio": "19:00",
+      "horaFim": "22:30",
+      "motivo": "Pós-graduação"
+    },
+    {
+      "diaSemana": 2,
+      "horaInicio": "19:00",
+      "horaFim": "22:30",
+      "motivo": "Pós-graduação"
+    }
+  ],
+  "preferenciasJulia": {
+    "nome": "Júlia",
+    "horariosPreferidos": ["20:00", "21:00"],
+    "diasPreferidos": [1, 2, 3, 4],
+    "observacoes": ["Prefere reuniões à noite de segunda a quinta"]
+  },
+  "preferenciasGuilherme": {
+    "nome": "Guilherme Nasser",
+    "horariosPreferidos": ["14:00", "15:00", "16:00", "17:00"],
+    "diasPreferidos": [1, 2, 3, 4, 5],
+    "observacoes": ["Reunião semanal", "Preferência meio ou final da tarde", "Foco produção"]
+  },
+  "preferenciasGenesis": {
+    "horasPorMes": 4,
+    "duracaoReuniao": 60,
+    "horariosPreferidos": ["08:00", "09:00"],
+    "precisaInvite": false,
+    "observacoes": ["4 horas por mês", "Reuniões de 1 hora", "Algumas não precisam invite"]
+  },
+  "preferenciasGerais": [],
+  "atualizadoEm": "2026-04-23T00:00:00.000Z"
+}
